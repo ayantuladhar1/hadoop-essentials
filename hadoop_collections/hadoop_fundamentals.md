@@ -112,15 +112,15 @@ Note: If NameNode crashes then we will lose everything and actual data is never 
 <img width="1703" height="923" alt="image" src="https://github.com/user-attachments/assets/cdb1cf83-4bb9-4f12-a395-e1656ffb6254" />
 
 * Write Flow:
-* 	Client requests NameNode
-*	NameNode returns DataNode
-*	Data written in blocks
-*	Replicas created automatically
+	* Client requests NameNode
+	* NameNode returns DataNode
+	* Data written in blocks
+	* Replicas created automatically
 
 * Read Flow:
-*	Client asks NameNode
-*	Reads from nearest DataNode
-*	Replica used if failure
+	* Client asks NameNode
+	* Reads from nearest DataNode
+	* Replica used if failure
 
 Small File Problem:
 Many small files have issues such as NameNode memory issue and Poor Performance. So, the solution for small file problem is to use HDFS Archive, Hive ORC/Parquet, HBase Spark compaction.
