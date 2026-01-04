@@ -59,3 +59,5 @@ Jps
 ```bash
 hdfs dfsadmin -report
 ```
+<img width="1688" height="785" alt="image" src="https://github.com/user-attachments/assets/0ae70f6c-7a01-4d70-892b-5e68516ba3ea" />
+
