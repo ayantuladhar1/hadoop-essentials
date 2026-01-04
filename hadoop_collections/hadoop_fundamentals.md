@@ -95,10 +95,38 @@ Note: If NameNode crashes then we will lose everything and actual data is never 
 * Big Data Tools
 <img width="1499" height="881" alt="image" src="https://github.com/user-attachments/assets/3f5e8918-f51c-47d8-88ff-d6dc3649f291" />
 
+* The 5 V's of Big Data
+|V|Meaning|
+|-|-------|
+|Volume |Large Data Set|
+|Velocity| Speed of data generation|
+|Variety| Different data types|
+|Veracity| Data quality|
+|Value| Business usefulness|
+
+<img width="293" height="163" alt="image" src="https://github.com/user-attachments/assets/eb6bec1e-a164-4548-b616-036d8fe65777" />
+
 # Hadoop Providers
 <img width="1171" height="436" alt="image" src="https://github.com/user-attachments/assets/164a18e7-55bb-4258-89ef-36d831b642eb" />
 
 # HDFS Architecture
 <img width="1703" height="923" alt="image" src="https://github.com/user-attachments/assets/cdb1cf83-4bb9-4f12-a395-e1656ffb6254" />
+
+Write Flow:
+	§ Client requests NameNode
+	§ NameNode returns DataNode
+	§ Data written in blocks
+	§ Replicas created automatically
+
+Read Flow:
+	§ Client asks NameNode
+	§ Reads from nearest DataNode
+	§ Replica used if failure
+
+Small File Problem:
+Many small files have issues such as NameNode memory issue and Poor Performance. So, the solution for small file problem is to use HDFS Archive, Hive ORC/Parquet, HBase Spark compaction.
+		
+<img width="643" height="359" alt="image" src="https://github.com/user-attachments/assets/be3a812f-4368-453b-ae0d-1454aa71fa82" />
+
 
 <img width="1428" height="806" alt="image" src="https://github.com/user-attachments/assets/244bd3d9-1564-4ebe-ba88-c860cc8fb7dc" />
