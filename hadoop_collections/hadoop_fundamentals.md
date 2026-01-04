@@ -22,8 +22,8 @@ Clusters are combination of machines.
 |MapReduce|	Programming model	|Batch processing|
 
 # In Modern Systems:
-	* Spark replaces MapReduce
-	* Hive replaces raw MapReduce SQL
+* Spark replaces MapReduce
+* Hive replaces raw MapReduce SQL
 
 # What is HDFS?
 HDFS is Hadoop's distributed file system. A file is split into blocks and stored on multiple machines.
