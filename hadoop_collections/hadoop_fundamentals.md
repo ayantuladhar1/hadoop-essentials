@@ -105,6 +105,11 @@ Note: If NameNode crashes then we will lose everything and actual data is never 
 |Veracity| Data quality|
 |Value| Business usefulness|
 
+# MapReduce
+MapReduce is Hadoop's original distributed data processing framework used for batch processing large datasets across a cluster.
+It works by splitting data into smaller (Map phase), processing them in parallel, and then aggregating results (Reduce phase).
+MapReduce is fault-tolerant and scalable, but disk-based, making it slower than modern engines like Apache Spark. Today, it is mainly used in legacy Hadoop systems and for understanding core big-data fundamentals.
+
 # Hadoop Providers
 <img width="1171" height="436" alt="image" src="https://github.com/user-attachments/assets/164a18e7-55bb-4258-89ef-36d831b642eb" />
 
