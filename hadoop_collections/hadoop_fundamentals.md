@@ -65,7 +65,29 @@ Note: If NameNode crashes then we will lose everything and actual data is never 
 # Hadoop Cluster
 * What  is a Cluster?
 * A group of machines working together as one-system
+  
 	|Type|	Description|
 	|----|-------------|
 	|Single Node|	Practice / local|
 	|Multi Node	|Production|
+
+# HDFS vs Local File System
+
+|Feature|	Local FS|	HDFS|
+|-------|-----------|-------|
+|Storage|	Single machine|	Distributed|
+|Fault tolerance|	❌|	✅|
+|Handles big data|	❌|	✅|
+|Replication|	❌|	✅|
+
+# Big Data
+<img width="1280" height="563" alt="image" src="https://github.com/user-attachments/assets/5f85c384-e809-4365-9d02-bbbf4682ca43" />
+
+* Structured Data: Row and Column based Data
+<img width="1280" height="410" alt="image" src="https://github.com/user-attachments/assets/7537a66c-57e7-4259-b761-d3937662f627" />
+
+* Semi-Structured Data
+<img width="1280" height="646" alt="image" src="https://github.com/user-attachments/assets/168a2519-b1a3-47ea-b52b-68f2a90a27e9" />
+
+* Unstructured Data
+<img width="1280" height="690" alt="image" src="https://github.com/user-attachments/assets/9de0a287-06b2-4f02-86f8-f76d3ce38836" />
