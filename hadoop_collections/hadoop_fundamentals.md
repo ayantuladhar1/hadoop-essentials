@@ -42,3 +42,30 @@ Note: If NameNode crashes then we will lose everything and actual data is never 
 |NameNode|	Master – stores metadata|
 |DataNode|	Workers – store actual data|
 |Secondary NameNode|	Backup metadata (not real backup)|
+
+<img width="1280" height="694" alt="image" src="https://github.com/user-attachments/assets/34c7626d-0658-4ac3-b959-c92d2d987b3c" />
+
+* Metadate means:
+	* File name
+	* File path
+	* Block locations
+	* Replication info
+
+# HDFS Block and Replication
+* Block Size:
+	* Default: 128MB
+	* Files which are greater than block size still uses 1 block.
+* Replication Factor:
+	* Default: 3
+ 	* Each block stored on 3 different DataNodes.
+* Why?
+	* Fault Tolerance
+ 	* High Availability
+
+# Hadoop Cluster
+* What  is a Cluster?
+* A group of machines working together as one-system
+	|Type|	Description|
+	|----|-------------|
+	|Single Node|	Practice / local|
+	|Multi Node	|Production|
