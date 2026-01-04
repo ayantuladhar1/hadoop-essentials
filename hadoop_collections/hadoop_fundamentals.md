@@ -122,10 +122,46 @@ Note: If NameNode crashes then we will lose everything and actual data is never 
 	* Reads from nearest DataNode
 	* Replica used if failure
 
-Small File Problem:
+* Small File Problem:
 Many small files have issues such as NameNode memory issue and Poor Performance. So, the solution for small file problem is to use HDFS Archive, Hive ORC/Parquet, HBase Spark compaction.
-		
-<img width="643" height="359" alt="image" src="https://github.com/user-attachments/assets/be3a812f-4368-453b-ae0d-1454aa71fa82" />
-
 
 <img width="1428" height="806" alt="image" src="https://github.com/user-attachments/assets/244bd3d9-1564-4ebe-ba88-c860cc8fb7dc" />
+
+# YARN
+Yarn is a resource manager for Hadoop.
+
+|Component|	Role|
+|---------|-----|
+|Resource Manager|	Global resource control|
+|Node Manager|	Per-node resource control|
+|Application Master|	Per-job Manager|
+|Container|	CPU + Memory unit|
+
+* Without YARN, Spark and Hive cannot run at scale.
+
+# Hadoop Ecosystem
+Tools for Hadoop Ecosystem
+
+|Tool|	Purpose|
+|----|---------|
+|Hive|	SQL on Hadoop|
+|Spark|	Fast Processing|
+|HBase|	NoSQL|
+|Sqoop|	RDBMS -> HDFS|
+|Flume| Log ingestion|
+|Oozie|	Workflow scheduling|
+
+# File Formats
+
+|Format|	Use|
+|------|-------|
+|CSV	|Raw ingestion|
+|JSON	|Semi-Structured|
+|Parquet	|Analytics|
+|ORC	|Hive Optimized|
+|Avro	|Schema evolution|
+
+# Partitioning vs Bucketing
+* Partition -> directory level
+* Bucketing -> file level
+* Used heavily in Hive
