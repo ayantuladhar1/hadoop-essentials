@@ -103,7 +103,6 @@ Note: If NameNode crashes then we will lose everything and actual data is never 
 |Variety | Different data types|
 |Veracity | Data quality|
 |Value | Business usefulness|
-<img width="293" height="163" alt="image" src="https://github.com/user-attachments/assets/eb6bec1e-a164-4548-b616-036d8fe65777" />
 
 # Hadoop Providers
 <img width="1171" height="436" alt="image" src="https://github.com/user-attachments/assets/164a18e7-55bb-4258-89ef-36d831b642eb" />
