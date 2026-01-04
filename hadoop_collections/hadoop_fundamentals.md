@@ -96,6 +96,7 @@ Note: If NameNode crashes then we will lose everything and actual data is never 
 <img width="1499" height="881" alt="image" src="https://github.com/user-attachments/assets/3f5e8918-f51c-47d8-88ff-d6dc3649f291" />
 
 * The 5 V's of Big Data
+
 |V 			| 			   Meaning|
 |--------|------------------------|
 |Volume| Large Data Set|
