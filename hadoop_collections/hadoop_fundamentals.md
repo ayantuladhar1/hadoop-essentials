@@ -4,14 +4,14 @@ Clusters are combination of machines.
 
 # Why Hadoop?
 * In Traditional system, there were many failures such as:
-	○ When Data is too big
-	○ One Machine crashes
-	○ Storage is expensive
+	* When Data is too big
+	* One Machine crashes
+	* Storage is expensive
 
 * Hadoop was introduced to solve this by using:
-	○ Distributed storage
-	○ Fault Tolerance
-	○ Parallel Processing
+	* Distributed storage
+	* Fault Tolerance
+	* Parallel Processing
 
 * Hadoop Core Components:
 
