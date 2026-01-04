@@ -96,13 +96,13 @@ Note: If NameNode crashes then we will lose everything and actual data is never 
 <img width="1499" height="881" alt="image" src="https://github.com/user-attachments/assets/3f5e8918-f51c-47d8-88ff-d6dc3649f291" />
 
 * The 5 V's of Big Data
-|V | Meaning|
-|--|--------|
-|Volume |Large Data Set|
-|Velocity | Speed of data generation|
-|Variety | Different data types|
-|Veracity | Data quality|
-|Value | Business usefulness|
+|V 			| 			   Meaning|
+|--------|------------------------|
+|Volume| Large Data Set|
+|Velocity| Speed of data generation|
+|Variety| Different data types|
+|Veracity| Data quality|
+|Value| Business usefulness|
 
 # Hadoop Providers
 <img width="1171" height="436" alt="image" src="https://github.com/user-attachments/assets/164a18e7-55bb-4258-89ef-36d831b642eb" />
