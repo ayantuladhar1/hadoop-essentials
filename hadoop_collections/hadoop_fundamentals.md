@@ -91,3 +91,14 @@ Note: If NameNode crashes then we will lose everything and actual data is never 
 
 * Unstructured Data
 <img width="1280" height="690" alt="image" src="https://github.com/user-attachments/assets/9de0a287-06b2-4f02-86f8-f76d3ce38836" />
+
+* Big Data Tools
+<img width="1499" height="881" alt="image" src="https://github.com/user-attachments/assets/3f5e8918-f51c-47d8-88ff-d6dc3649f291" />
+
+# Hadoop Providers
+<img width="1171" height="436" alt="image" src="https://github.com/user-attachments/assets/164a18e7-55bb-4258-89ef-36d831b642eb" />
+
+# HDFS Architecture
+<img width="1703" height="923" alt="image" src="https://github.com/user-attachments/assets/cdb1cf83-4bb9-4f12-a395-e1656ffb6254" />
+
+<img width="1428" height="806" alt="image" src="https://github.com/user-attachments/assets/244bd3d9-1564-4ebe-ba88-c860cc8fb7dc" />
